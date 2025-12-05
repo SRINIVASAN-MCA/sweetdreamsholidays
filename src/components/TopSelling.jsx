@@ -1,4 +1,8 @@
 import React from "react";
+import ootyImg from "../images/ooty-or-kodaikanal.jpg";
+import delhiImg from "../images/Golden-Triangle-Delhi-Agra-Jaipur-Tour.jpg";
+import goaImg from "../images/Vacation.jpg";
+
 
 export default function TopSelling() {
   const trips = [
@@ -6,21 +10,21 @@ export default function TopSelling() {
       title: "Ooty – Kodaikanal Delight",
       days: "5 Days",
       price: "₹16,499",
-      img: "/assets/images/ooty-or-kodaikanal.jpg",
+      img:ootyImg,
       desc: "A refreshing hill-station escape covering Ooty lake, botanical gardens, Kodai lake, waterfalls & more.",
     },
     {
       title: "Golden Triangle – Delhi, Agra, Jaipur",
       days: "6 Days",
       price: "₹18,999",
-      img: "/assets/images/Golden-Triangle-Delhi-Agra-Jaipur-Tour.jpg",
+      img: delhiImg,
       desc: "India’s classic cultural trail. Visit Taj Mahal, Jaipur Forts, Qutub Minar, India Gate & more.",
     },
     {
       title: "Goa Beach Getaway",
       days: "4 Days",
       price: "₹12,999",
-      img: "/assets/images/Vacation.jpg",
+      img: goaImg,
       desc: "Relax on sandy beaches, nightlife, water sports & island tours — perfect for couples & families.",
     },
   ];
