@@ -1,21 +1,24 @@
 import React, { useEffect, useState, useRef } from "react";
+import Testimonials1 from "../images/testimonial.jpg";
+import Testimonials2 from "../images/testimonial2.jpg";
+import Testimonials3 from "../images/testimonial3.jpg";
 
 export default function Testimonials({ autoplay = true, interval = 4000 }) {
   const testimonials = [
     {
       name: "Rajesh Kumar",
       quote: "Wonderful experience with Sweet Dreams!",
-      img: "/assets/images/testimonial.jpg",
+      img: Testimonials1,
     },
     {
       name: "Priya Sharma",
       quote: "Affordable packages & great service.",
-      img: "/assets/images/testimonial2.jpg",
+      img: Testimonials2,
     },
     {
       name: "Manikandan",
       quote: "Highly recommended travel agency.",
-      img: "/assets/images/testimonial3.jpg",
+      img: Testimonials3,
     },
   ];
 

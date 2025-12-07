@@ -1,10 +1,14 @@
+import Goaimage from "../images/Best-Places-to-visit-in-Goa-in-3-Days-Tour.jpg";
+import Ootyimage from "../images/maxresdefault.jpg";
+import Keralaimage from "../images/CochinMunnarAlleppeyPrivateMulti-DayTour.jpg";  
+
 export const tourPackages = [
   {
     slug: "goa-3-days",
     title: "Goa 3 Days Package",
     duration: "3 Days / 2 Nights",
     shortDesc: "Enjoy beaches, nightlife, and sightseeing in North Goa.",
-    image: "/assets/images/Best-Places-to-visit-in-Goa-in-3-Days-Tour.jpg",
+    image: Goaimage,
     itinerary: [
       {
         day: 1,
@@ -31,7 +35,7 @@ export const tourPackages = [
     title: "Ooty & Coonoor 2 Days",
     duration: "2 Days / 1 Night",
     shortDesc: "Beautiful hills, tea gardens and cool climate in Ooty & Coonoor.",
-    image: "/assets/images/maxresdefault.jpg",
+    image: Ootyimage,
     itinerary: [
       {
         day: 1,
@@ -52,7 +56,7 @@ export const tourPackages = [
     title: "Kerala 4 Days",
     duration: "4 Days / 3 Nights",
     shortDesc: "Munnar hills, Alleppey backwaters and scenic Kerala landscapes.",
-    image: "/assets/images/CochinMunnarAlleppeyPrivateMulti-DayTour.jpg",
+    image: Keralaimage,
     itinerary: [
       {
         day: 1,
